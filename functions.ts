@@ -177,8 +177,13 @@ export const currentWeather = async (
 export const run = async (
   cityName: string
 ): Promise<[SummaryWithCountry, Summary[]]> => {
-  const latlon = await getLatLon(cityName);
-  const summaryForFourDays = await getSummary(latlon.lat, latlon.lon);
-  const currentWeatherStatus = await currentWeather(latlon.lat, latlon.lon);
-  return [currentWeatherStatus, summaryForFourDays];
+  try{
+    const latlon = await getLatLon(cityName);
+    const summaryForFourDays = await getSummary(latlon.lat, latlon.lon);
+    const currentWeatherStatus = await currentWeather(latlon.lat, latlon.lon);
+    return [currentWeatherStatus, summaryForFourDays];
+  }catch(error){
+    console.log("Error occured while fetching some data run");
+    throw (error)
+  }
 };
