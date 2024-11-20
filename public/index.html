@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="maindiv">
+        <div class="city">
+            <div class="search">
+                <input id="cityInput" type="text" placeholder="Enter city name">
+                <button id="submit">Search</button>
+            </div>
+            <div class="cityandcountryflag">
+                <h1 id="cityName"></h1>
+                <img id="countryFlag" src="">
+            </div>
+
+            <p id="currentTimeId" class="currentTime"></p> <!--This we need-->
+        </div>
+        <div class="weathericon align_center"><img id="topWeatherImage" alt=""></div>
+        <div class="temperaturenow">
+            <div id="currentTemperature" class="celsius align_center"></div>
+            <div class="align_center small_text"><span id="feelsLike" class="small_text"></span></div>
+        </div>
+        <div class="citymaxmin">
+            <div id="currentWeatherMain" class="weatherdescription"></div>
+            <div class="maxmin">
+                <div class="max" id="maxtemp"></div>
+                <div class="min" id="mintemp"></div>
+            </div>
+        </div>
+        <div class="weathericonsecond align_center"><img id="habitatimage" alt=""></i></div>
+
+        <div class="bottompart">
+
+            <div class="todayweather">
+                <div id="todaytommorowmiddle" class="today"></div>
+                <div id="datemiddle" class="date"></div>
+            </div>
+
+
+            <div id="lowerfourdaycontainer" class="nextfourdayweather"></div>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/b55f2e4488.js" crossorigin="anonymous"></script>
+    <script type="module" src="../dist/test.js"></script>
+</body>
+
+</html>

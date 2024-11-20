@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",        // This makes sure the output JavaScript uses ES6 syntax
+    "module": "ES6",        // This tells TypeScript to generate ES6 module code
+    "moduleResolution": "node", // Ensures proper module resolution like in Node.js
+    "outDir": "./dist",      // Directory for compiled files
+    "esModuleInterop": true,  // Enables compatibility with CommonJS modules
+    "strict": true            // Optional: makes TypeScript more strict about types
+  }
+}

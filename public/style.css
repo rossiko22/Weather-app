@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+.maindiv {
+    transition: 2s;
+}
+
+.small_text {
+    font-size: 0.9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.align_center {
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 400px;
+    background: linear-gradient(to bottom, #c471f5 0%, #fa71cd 100%);
+    border-radius: 15px;
+}
+
+.city {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.city p {
+    font-size: 1.3rem;
+}
+
+.weathericon img {
+    height: 100px;
+}
+
+.celsius {
+    font-size: 2rem;
+}
+
+.citymaxmin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.weatherdescription {
+    font-size: 1.3rem;
+}
+
+.weathericonsecond img {
+    height: 115px;
+}
+
+.maxmin {
+    display: flex;
+    gap: 1rem;
+}
+
+.bottompart {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    border-radius: 15px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+}
+
+.todayweather {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nextfourdayweather {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+
+.daystatus img {
+    height: 30px;
+}
+
+.nexthour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.br {
+    background-color: white;
+    height: 1px;
+}
+
+
+.search input {
+    outline: none;
+    color: magenta;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.search input::placeholder {
+    color: magenta;
+    transition: 0.1s all ease;
+}
+
+.search input:focus::placeholder {
+    opacity: 0;
+}
+
+.search button {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    color: magenta;
+    background-color: white;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.search button:hover {
+    color: white;
+    background-color: magenta;
+}
+
+.temperaturenow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cityandcountryflag {
+    display: flex;
+    justify-content: space-evenly;
+}
