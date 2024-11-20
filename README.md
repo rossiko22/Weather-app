@@ -1,16 +1,10 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> aa542a0842d5edbb2878935d57569d0d5c186e5c
 # Weather Forecast Application 🌦️
 
 This project is a weather forecast web application that allows users to view current weather conditions and a 4-day forecast for any city worldwide. Built using HTML, CSS, and TypeScript, it integrates the OpenWeatherMap API to fetch real-time weather data.
 
-<<<<<<< HEAD
 ---
 
-=======
->>>>>>> aa542a0842d5edbb2878935d57569d0d5c186e5c
 ## Features
 
 - **Search by City**: Enter any city's name to get current weather data.
@@ -23,19 +17,12 @@ This project is a weather forecast web application that allows users to view cur
   - Dynamic icons and flag integration for a clean, informative layout.
 - **Responsive Design**: Optimized for desktops and mobile devices.
 
-<<<<<<< HEAD
 ---
 
-=======
->>>>>>> aa542a0842d5edbb2878935d57569d0d5c186e5c
 ## Technology Stack
 
 - **Frontend**: HTML5, CSS3, JavaScript
 - **TypeScript**: For structured and type-safe JavaScript code.
-<<<<<<< HEAD
-=======
-- **Backend**: Node.js for serving files
->>>>>>> aa542a0842d5edbb2878935d57569d0d5c186e5c
 - **API Integration**: [OpenWeatherMap API](https://openweathermap.org/api)
 
 ---
@@ -71,7 +58,6 @@ This project is a weather forecast web application that allows users to view cur
 ├── package.json          # Node.js project metadata
 ├── package-lock.json     # Lockfile for npm dependencies
 ├── tsconfig.json         # TypeScript configuration
-<<<<<<< HEAD
 └── README.md             # Project documentation
 ```
 
@@ -176,7 +162,3 @@ Contributions are welcome! Feel free to fork this repository, make enhancements,
 ## License
 
 This project is licensed under the MIT License.
-=======
-├── index.js              # Node.js server file
-└── README.md             # Project documentation
->>>>>>> aa542a0842d5edbb2878935d57569d0d5c186e5c
